@@ -1,0 +1,87 @@
+img{
+	width: 100%;
+	height: 100vh;
+	filter: blur(1px);
+}
+.T{
+	color: darkorange;
+}
+.logo{
+	position: absolute;
+	top: 2px;
+	left: 20vh;
+	color: white;
+}
+.about{
+	color: navajowhite;
+	position: absolute;
+	top: 60px;
+	left: 85vh;
+}
+.menu{
+position: absolute;
+  top: 40px; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-70%, -50%); /* Center both vertically and horizontally */
+  font-size: 20px;
+  height: 50px;
+
+ 
+ 
+}
+.menu li,
+.menu ul,
+.menu a {
+  text-decoration: none;
+  color: navajowhite;
+margin: 5px 20px;
+display: inline-block;
+right: 100vh;
+;
+
+}
+
+.menu li:hover,
+.menu ul:hover,
+.menu a:hover {
+  color: ghostwhite;
+  text-decoration:underline ;
+
+   padding-bottom: 2px;
+   transition-duration: 2s;
+}
+.intro{
+	position: absolute;
+	top: 110px;
+	color: white;
+	text-align: center;
+	width: 80%;
+	left: 15vh;
+	font-size: 22px;
+}
+.mis{
+	top: 220px;
+	color: white;
+	text-align: center;
+    width: 80%;
+    left: 15vh;
+    font-size: 22px;
+    position: absolute;
+}
+.om{
+color: navajowhite;
+}
+.ap{
+
+	top: 330px;
+	color: white;
+	text-align: center;
+    width: 80%;
+    left: 15vh;
+    font-size: 22px;
+    position: absolute;
+}
+.ou{
+color: navajowhite;
+}
+

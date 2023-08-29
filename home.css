@@ -1,0 +1,87 @@
+h1{
+  font-size: 10px;
+}
+img{
+height: 100vh;
+width: 100%;
+filter: blur(1px);
+}
+h1{
+  position: absolute;
+  font-size: 50px;
+  top: 35vh;
+  right: 105vh;
+  color: white;
+}
+p{
+  position: absolute;
+  font-size: 30px;
+  top: 45vh;
+  left: 55vh;
+  color: white;
+}
+.high{
+  color: darkorange;
+}
+.menu{
+position: absolute;
+  top: 40px; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-70%, -50%); /* Center both vertically and horizontally */
+  font-size: 20px;
+  height: 50px;
+  transition-duration: 2s;
+
+ 
+ 
+}
+.menu li,
+.menu ul,
+.menu a {
+  text-decoration: none;
+  color: navajowhite;
+margin: 5px 20px;
+display: inline-block;
+right: 100vh;
+;
+
+}
+
+.menu li:hover,
+.menu ul:hover,
+.menu a:hover {
+  color: ghostwhite;
+  text-decoration:underline ;
+
+   padding-bottom: 2px;
+   transition: 2s;
+
+}
+
+
+.short{
+  color: darkorange;
+}
+.concise{
+  color: darkorange;
+}
+.but{
+  left: 85vh;
+  position: absolute;
+  top: 60vh;
+  height: 40px;
+  width: 130px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  border-radius: 40vh;
+  padding: 5px 5px;
+}
+.but:hover{
+  color: white;
+
+text-shadow: 2px 2px 20px;
+  transition-property: color,width;
+  transition-duration:2s;
+  width: 200px;
+}
