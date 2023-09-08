@@ -1,0 +1,87 @@
+body{
+	scroll-behavior: revert;
+}
+.aboutme{
+	text-align: center;
+	font-size: 40px;
+	animation: repeat 1s infinite;
+	color: deeppink;
+	animation: drop 2s ;
+    
+
+}
+
+.content{
+	width: 100vh;
+	 text-align: center;
+	 font-size: 17px;
+}
+.pink{
+	color: deeppink;
+	animation: typing 4s;
+}
+img{
+ right: 10vh;
+ top: 10vh;
+ position: fixed;
+ height: 80%;
+}
+@keyframes typing {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animated-text {
+  animation: slide 1s ease-in-out; /* Slide in animation */
+}
+ul{
+    text-decoration: none;
+    color: deeppink;
+    
+    top: 18px;
+    text-align: center;
+    margin: 2px 3px;
+    padding: 3px;
+    border-radius: 20px;
+    text-indent: 15px;
+    
+
+}
+ul li{
+    text-decoration: none;
+    color: deeppink;
+}
+ul li a{
+    text-decoration: none;
+    color: deeppink;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    top: 18px;
+}
+ul li a:hover{
+    
+    color: deeppink;
+    box-shadow: 1px 2px 2px lightpink;
+    border-radius: 20px;
+}
+@keyframes drop {
+            0% {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .dropping-text {
+            font-size: 36px;
+            animation: dropText 1s ease-in-out;
+        }

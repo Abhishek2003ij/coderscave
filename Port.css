@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+}
+
+.Abhi{
+    color: deeppink;
+}
+.Name{
+    position: absolute;
+    top: 25%;
+    left: 30px;
+    font-size: 50px;
+}
+img{
+ right: 10vh;
+ top: 10vh;
+ position: absolute;
+ height: 80%;
+}
+.intro{
+
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 20px;
+}
+.touch{
+    position: absolute;
+    top: 58%;
+    left: 30px;
+    font-size: 20px;
+    border:2px solid black;
+    border-radius: 25px;
+    padding: 4px;
+
+}
+.touch:hover{
+    background-color: deeppink;
+    color: white ;
+    transition-duration: 1s;
+
+    box-shadow: 1px 1px 40px  deeppink;
+}
+ul{
+    text-decoration: none;
+    color: deeppink;
+    
+    top: 18px;
+    text-align: center;
+    margin: 2px 3px;
+    padding: 3px;
+    border-radius: 20px;
+    text-indent: 15px;
+    
+
+}
+ul li{
+    text-decoration: none;
+    color: deeppink;
+}
+ul li a{
+    text-decoration: none;
+    color: deeppink;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    top: 18px;
+}
+ul li a:hover{
+    
+    color: deeppink;
+    box-shadow: 1px 2px 2px lightpink;
+    border-radius: 20px;
+}
+
